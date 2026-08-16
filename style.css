@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 30px;
+    background: #f0f2f5;
+    font-family:
+        'Noto Sans Khmer',
+        sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.upload-box {
+    border: 3px dashed #999;
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+    transition: 0.3s;
+    background: #fafafa;
+}
+
+.upload-box.dragover {
+    background: #e8f4ff;
+    border-color: #007bff;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#imageList {
+    margin-top: 30px;
+}
+
+.image-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.image-item img {
+    width: 220px;
+    height: 130px;
+    object-fit: contain;
+    background: black;
+    border-radius: 6px;
+}
+
+.image-info {
+    flex: 1;
+}
+
+.image-info p {
+    margin: 0 0 10px;
+}
+
+input[type="number"] {
+    width: 80px;
+    padding: 6px;
+}
+
+.action-area {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+#status {
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+
+/* 语言选择框 */
+
+.language-box {
+
+    position: fixed;
+
+    top: 20px;
+
+    right: 20px;
+
+    z-index: 999;
+}
+
+.language-box select {
+
+    padding: 10px 14px;
+
+    border-radius: 8px;
+
+    border: 1px solid #ccc;
+
+    background: white;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+    outline: none;
+}
+
+/*  */
+.image-item {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.image-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.remove-btn {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 22px;
+    height: 22px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.image-item:hover .remove-btn {
+    opacity: 1;
+}
