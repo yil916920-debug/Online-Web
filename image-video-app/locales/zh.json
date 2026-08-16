@@ -1,0 +1,41 @@
+{
+    "title": "图片合成视频",
+
+    "mainTitle": "图片合成视频工具",
+
+    "dragText": "拖拽图片到这里",
+
+    "orText": "或者",
+
+    "selectBtn": "选择图片",
+
+    "generateBtn": "开始合成视频",
+
+    "downloadBtn": "下载视频",
+
+   "uploadWarningTitle": "未上传图片",
+
+   "uploadWarningText": "请先上传至少一张图片",
+
+   "okBtn": "知道了",
+
+  "uploadLimitTitle": "上传上限已达",
+
+  "uploadLimitText": "最多只能上传 10 张图片",
+
+  "durationLabel": "展示时长（1~60秒）:",
+
+    "generating": "正在生成视频...",
+
+  "success": "视频已生成！",
+
+  "fail": "视频生成失败！",
+
+  "videoSuccessTitle": "生成成功",
+
+  "videoSuccessText": "视频已生成完成",
+
+  "videoFailTitle": "生成失败",
+
+  "videoFailText": "视频生成失败，请重试"
+}
